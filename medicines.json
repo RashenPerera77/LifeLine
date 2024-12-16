@@ -26,13 +26,13 @@
   "Antihistamines": [
     { "name": "Loratadine", "price": 20, "display_price": "Price: $20.00", "image": "images/lora.png" },
     { "name": "Cetirizine", "price": 22, "display_price": "Price: $22.00", "image": "images/cetirizine.webp" },
-    { "name": "Diphenhydramine", "price": 25, "display_price": "Price: $25.00", "image": "images/diphenhydramine.webp" },
+    { "name": "Diphenhydramine", "price": 25, "display_price": "Price: $25.00", "image": "images/Diphenhydramine.webp" },
     { "name": "Fexofenadine", "price": 28, "display_price": "Price: $28.00", "image": "images/fexofenadine.jpg" }
   ],
   "Antihypertensives": [
     { "name": "Lisinopril", "price": 40, "display_price": "Price: $40.00", "image": "images/lip.webp" },
     { "name": "Amlodipine", "price": 42, "display_price": "Price: $42.00", "image": "images/amlodipine.webp" },
-    { "name": "Losartan", "price": 45, "display_price": "Price: $45.00", "image": "images/losartan.jpg" },
+    { "name": "Losartan", "price": 45, "display_price": "Price: $45.00", "image": "images/Losartan.jpg" },
     { "name": "Hydrochlorothiazide", "price": 50, "display_price": "Price: $50.00", "image": "images/hyd.jpg" },
     { "name": "Metoprolol", "price": 55, "display_price": "Price: $55.00", "image": "images/met.jpg" },
     { "name": "Enalapril", "price": 60, "display_price": "Price: $60.00", "image": "images/enalapril.webp" }
