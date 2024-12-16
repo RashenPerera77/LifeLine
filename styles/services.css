@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(251, 251, 252);
+
+}
+
+h1{
+    text-align:center ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(116, 109, 109);
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;/*row and column gap*/
+    padding: 70px;
+    border-radius: 20px;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.box img{
+    width: 280px;
+    height: 320px;
+    margin: 10px;
+    margin-left: 60px;
+} /*inside the box all the images*/
+           
+.title{
+    text-align: center;
+    background-color: rgb(59, 196, 238);
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 35px;
+}
+.form-group {
+    display: inline-block;
+    text-align: center;
+    padding: 40px 40px;
+    background-color: #40c43c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form-group:hover {
+    align-items: center;
+    background-color: #0056b3;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
+       
+}
+
+.col-md-4 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.col-md-4 p {
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* Mobile-only styles for screens with max-width 375px */
+@media (max-width: 375px) {
+
+    /* Body adjustments */
+    body {
+        font-size: 14px;  /* Adjust font size for readability */
+        margin: 0;
+    }
+
+    /* Heading adjustments */
+    h1 {
+        font-size: 20px;  /* Reduce font size */
+        padding: 10px;  /* Add some padding */
+    }
+
+    /* Container adjustments */
+    .container {
+        margin: 10px;  /* Reduce margin */
+        padding: 20px;  /* Adjust padding for smaller screens */
+        gap: 10px;  /* Reduce gap between items */
+        flex-direction: column;  /* Stack items vertically */
+    }
+
+    .box {
+        width: 100%;  /* Full width on mobile */
+        height: auto;  /* Auto height to maintain aspect ratio */
+        margin: 0;  /* Remove margin */
+    }
+
+    .box img {
+        width: 100%;  /* Ensure image fits within the box */
+        height: auto;  /* Maintain aspect ratio */
+        margin: 0;  /* Remove margin */
+    }
+
+    /* Title adjustments */
+    .title {
+        font-size: 18px;  /* Reduce font size */
+        padding: 10px;  /* Add padding */
+        height: auto;  /* Allow height to adjust based on content */
+    }
+
+    /* Form group adjustments */
+    .form-group {
+        padding: 20px;
+        font-size: 14px;  /* Reduce font size */
+    }
+
+    .form-group:hover {
+        background-color: #0056b3;
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 15px;
+    }
+
+    /* Column adjustments */
+    .col-md-4 {
+        flex: 0 0 100%;  /* Full width columns on mobile */
+        max-width: 100%;  /* Full width */
+        padding: 0 10px;  /* Adjust padding */
+    }
+
+    .col-md-4 h3 {
+        font-size: 16px;  /* Reduce font size */
+    }
+
+    .col-md-4 p {
+        font-size: 14px;  /* Reduce font size */
+    }
+
+    /* General list and link adjustments */
+    ul {
+        padding: 0;
+    }
+
+    li {
+        font-size: 14px;  /* Reduce font size */
+    }
+
+    a {
+        font-size: 14px;  /* Adjust link font size */
+    }
+
+    .copyright {
+        font-size: 12px;  /* Reduce font size */
+        margin-top: 10px;  /* Reduce margin */
+    }
+}

@@ -1,0 +1,285 @@
+/* Main styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container img{
+    width: 100px;
+    height: auto;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.Hotline {
+    font-size: 18px;
+}
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-self: center;
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+tfoot td {
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+}
+.title h1{
+    text-align: center;
+    font-size: 30px;
+}
+.title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the image in the title */
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar a {
+        padding: 5px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+/* Mobile-only styles for screens with max-width 375px */
+@media (max-width: 375px) {
+
+    /* Adjust body for mobile */
+    body {
+        font-size: 14px;
+    }
+
+    /* Logo container adjustments */
+    .logo-container {
+        flex-direction: column;  /* Stack logo and text vertically */
+        align-items: center;
+    }
+
+    .logo-container img {
+        width: 80px;  /* Reduce logo size for mobile */
+    }
+
+    /* Heading adjustments */
+    h1 {
+        font-size: 20px;  /* Reduce heading size for mobile */
+        text-align: center;
+    }
+
+    /* Hotline font size reduction */
+    .Hotline {
+        font-size: 16px;
+    }
+
+    /* Navbar adjustments for mobile */
+    .navbar {
+        flex-direction: column;  /* Stack nav items vertically */
+        gap: 10px;
+        text-align: center;  /* Center-align nav links */
+    }
+
+    .navbar a {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    /* Section padding adjustment */
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    /* Image adjustments */
+    img {
+        max-width: 100%;  /* Ensure images take full width */
+        height: auto;
+    }
+
+    /* Paragraph adjustments */
+    p {
+        font-size: 16px;
+        line-height: 1.4;  /* Slightly tighter line height for mobile */
+    }
+
+    /* iFrame adjustments */
+    iframe {
+        height: 300px;  /* Reduce height for smaller screens */
+    }
+
+    /* Table adjustments */
+    table {
+        font-size: 12px;  /* Reduce font size in table */
+    }
+
+    th, td {
+        padding: 5px;  /* Reduce padding in table cells */
+    }
+
+    tfoot td {
+        font-size: 12px;
+    }
+
+    /* Title adjustments */
+    .title h1 {
+        font-size: 24px;  /* Reduce title font size */
+    }
+
+    .title img {
+        width: 100px;  /* Adjust the size of title image if needed */
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 15px;
+    }
+
+    .footer-bar {
+        margin: 0 10px;  /* Add margin for better spacing */
+    }
+
+    .row {
+        flex-direction: column;  /* Stack columns vertically */
+        text-align: center;
+    }
+
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;  /* Make columns take full width on mobile */
+    }
+
+    h3 {
+        font-size: 16px;  /* Reduce font size for mobile */
+    }
+
+    .copyright {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    /* Adjust padding for general links */
+    a {
+        font-size: 14px;
+    }
+}

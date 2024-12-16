@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pharmacy.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favcon package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favcon package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favcon package/favicon-16x16.png">
+    <link rel="manifest" href="favcon package/site.webmanifest">
+    <link rel="mask-icon" href="favcon package/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ef2d2d">
+    <meta name="theme-color" content="#ffffff">
+    <title>Pharmacy</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="img">
+                <img src="images/logo2.webp" alt="log">
+            </div>
+            <h1>Lifeline Hospital</h1>
+        </div>
+        <div class="Hotline"><p>+94 88 117 7799</p></div>
+    
+        <div class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./Aboutus.html">About Us</a>
+            <a href="./services.html">Services</a>
+            <a href="./Doctors.html">Doctors</a>
+            <a href="./Consulting.html">Consulting</a>
+            <a href="./Pharmacy.html">Pharmacy</a>
+        </div>
+    </header>
+<body>
+    <header>
+        <h3>Order Your Medicine</h3>
+    </header>
+
+    <main>
+        <section id="analgesics">
+            <h2>Analgesics</h2>
+            <!-- Medicine items will be populated by JS -->
+        </section>
+
+        <section id="antibiotics">
+            <h2>Antibiotics</h2>
+            <!-- Medicine items will be populated by JS -->
+        </section>
+
+        <section id="antidepressants">
+            <h2>Antidepressants</h2>
+            <!-- Medicine items will be populated by JS -->
+        </section>
+
+        <section id="antihistamines">
+            <h2>Antihistamines</h2>
+            <!-- Medicine items will be populated by JS -->
+        </section>
+
+        <section id="antihypertensives">
+            <h2>Antihypertensives</h2>
+            <!-- Medicine items will be populated by JS -->
+        </section>
+
+        <table id="order-summary">
+            <thead>
+                <tr>
+                    <th>Medicine</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will appear here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td id="total-price">$0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <button id="buy-now">Buy Now</button>
+        <button id="save-favorites">Add to Favorites</button>
+        <button id="apply-favorites">Apply Favorites</button>
+    </main>
+    <script src="scripts/pharmacy.js" defer></script>
+    <footer>
+        <div class="footer-bar">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>About Us</h3>
+                    <p>Our hospital is committed to providing high-quality healthcare services to our community. We are dedicated to patient satisfaction and excellence in medical care.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="Doctors.html">Doctors</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>
+                        <strong>Lifeline Hospital</strong><br>
+                        07,Union Place,Colombo<br>
+                        Colombo, Sri Lanka<br>
+                        Phone: +94 11 234 5678<br>
+                        Email: info@lifeline.com
+                    </p>
+                    
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Lifeline Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

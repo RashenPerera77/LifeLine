@@ -1,0 +1,40 @@
+{
+  "Analgesics": [
+    { "name": "Ibuprofen", "price": 10, "display_price": "Price: $10.00", "image": "images/ibuprofen.png" },
+    { "name": "Acetaminophen", "price": 12, "display_price": "Price: $12.00", "image": "images/aes.webp" },
+    { "name": "Aspirin", "price": 15, "display_price": "Price: $15.00", "image": "images/asprin.jpg" },
+    { "name": "Naproxen", "price": 18, "display_price": "Price: $18.00", "image": "images/Nap.webp" },
+    { "name": "Diclofenac", "price": 20, "display_price": "Price: $20.00", "image": "images/Diclo.png" },
+    { "name": "Tramadol", "price": 22, "display_price": "Price: $22.00", "image": "images/tra.jpg" }
+  ],
+  "Antibiotics": [
+    { "name": "Amoxicillin", "price": 30, "display_price": "Price: $30.00", "image": "images/amox.webp" },
+    { "name": "Ciprofloxacin", "price": 32, "display_price": "Price: $32.00", "image": "images/cipro.png" },
+    { "name": "Azithromycin", "price": 35, "display_price": "Price: $35.00", "image": "images/azil.webp" },
+    { "name": "Clindamycin", "price": 40, "display_price": "Price: $40.00", "image": "images/clindamycin.webp" },
+    { "name": "Levofloxacin", "price": 42, "display_price": "Price: $42.00", "image": "images/levo.jpg" },
+    { "name": "Doxycycline", "price": 45, "display_price": "Price: $45.00", "image": "images/doxycycline.jpg" }
+  ],
+  "Antidepressants": [
+    { "name": "Fluoxetine", "price": 50, "display_price": "Price: $50.00", "image": "images/Fluo.webp" },
+    { "name": "Sertraline", "price": 55, "display_price": "Price: $55.00", "image": "images/Sertraline.png" },
+    { "name": "Escitalopram", "price": 60, "display_price": "Price: $60.00", "image": "images/Escit.jpg" },
+    { "name": "Citalopram", "price": 65, "display_price": "Price: $65.00", "image": "images/cita.jpg" },
+    { "name": "Paroxetine", "price": 70, "display_price": "Price: $70.00", "image": "images/Paroxetine.png" },
+    { "name": "Duloxetine", "price": 75, "display_price": "Price: $75.00", "image": "images/duloxetine.jpg" }
+  ],
+  "Antihistamines": [
+    { "name": "Loratadine", "price": 20, "display_price": "Price: $20.00", "image": "images/lora.png" },
+    { "name": "Cetirizine", "price": 22, "display_price": "Price: $22.00", "image": "images/cetirizine.webp" },
+    { "name": "Diphenhydramine", "price": 25, "display_price": "Price: $25.00", "image": "images/diphenhydramine.webp" },
+    { "name": "Fexofenadine", "price": 28, "display_price": "Price: $28.00", "image": "images/fexofenadine.jpg" }
+  ],
+  "Antihypertensives": [
+    { "name": "Lisinopril", "price": 40, "display_price": "Price: $40.00", "image": "images/lip.webp" },
+    { "name": "Amlodipine", "price": 42, "display_price": "Price: $42.00", "image": "images/amlodipine.webp" },
+    { "name": "Losartan", "price": 45, "display_price": "Price: $45.00", "image": "images/losartan.jpg" },
+    { "name": "Hydrochlorothiazide", "price": 50, "display_price": "Price: $50.00", "image": "images/hyd.jpg" },
+    { "name": "Metoprolol", "price": 55, "display_price": "Price: $55.00", "image": "images/met.jpg" },
+    { "name": "Enalapril", "price": 60, "display_price": "Price: $60.00", "image": "images/enalapril.webp" }
+  ]
+}

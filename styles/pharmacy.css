@@ -1,0 +1,260 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #f7f7f7;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+  }
+  
+  /* Medicine Item List */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .medicine-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .medicine-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Updated Image size */
+  .medicine-item img {
+    width: 120px; /* Increased image width */
+    height: 120px; /* Increased image height */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px; /* Increased margin between image and text */
+  }
+  
+  .medicine-item span {
+    font-size: 1.2rem;
+    flex: 1;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .medicine-item input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .medicine-item button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .medicine-item button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Cart Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #4cafaf;
+    color: white;
+    font-weight: bold;
+  }
+  .Hotline {
+    font-size: 15px;
+    margin:auto
+}
+  tfoot td {
+    font-weight: bold;
+    background-color: #f7f7f7;
+    border-top: 2px solid #ddd;
+  }
+  
+  /* Buttons at the bottom */
+  button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #4ca0af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+  }
+  
+  button:hover {
+    background-color: #457ba0;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .medicine-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .medicine-item img {
+        margin-bottom: 10px;
+        width: 100px; /* Slightly smaller images for mobile */
+        height: 100px;
+    }
+  
+    .medicine-item span {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+  
+    table {
+        font-size: 0.9rem;
+    }
+  
+    button {
+        width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+  
+    .medicine-item span {
+        font-size: 1rem;
+    }
+  
+    table th, table td {
+        padding: 10px 12px;
+    }
+  }
+  
+  /* Footer or Additional Section Styling */
+  #thank-you-message {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-left: 5px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+  }
+  
+  #thank-you-message h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+  }
+  
+  #thank-you-message p {
+    font-size: 1rem;
+    color: #666;
+  }
+  footer {
+    padding: 15px;
+}
+
+.footer-bar {
+    margin: 0 10px;  /* Add margin for better spacing */
+}
+
+.row {
+    flex-direction: column;  /* Stack columns vertically */
+    text-align: center;
+}
+
+.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;  /* Make columns take full width on mobile */
+}
+
+h3 {
+    font-size: 16px;  /* Reduce font size for mobile */
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Adjust padding for general links */
+a {
+    font-size: 14px;
+}
+
